@@ -8,5 +8,9 @@ class ApplicationController < ActionController::Base
   def goodbye
     render html: "Goodbye world!"
   end
+
+  def fokome
+  	render html: "Sokome momfe, ona pico geno foko me!"
+  end
 end
 
